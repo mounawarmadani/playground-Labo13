@@ -4,6 +4,6 @@ Ajouter du bruit sur une image
 
 ## Exemple
 
-|Original|Niveau de gris|
+|Original|Image bruitée|
 |--------|--------------|
 |![Original](images/original.png)|![Image avec bruit](images/bruit.png)|
