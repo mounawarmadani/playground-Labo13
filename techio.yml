@@ -1,10 +1,18 @@
-title: C++ Project
+title: Labo 13
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+- title: Introduction
+  statement: markdowns/introduction.md
+- title: Exercice 1
+  statement: markdowns/ex1.md
+- title: Exercice 2
+  statement: markdowns/ex2.md
+- title: Exercice 3
+  statement: markdowns/ex3.md
+- title: Exercice 4
+  statement: markdowns/ex4.md
 projects:
-  cpp:
-    root: /cpp-project
+  prime:
+    root: /prime
     runner:
       name: techio/cmake-gcc-runner
       version: latest
