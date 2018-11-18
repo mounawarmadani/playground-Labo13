@@ -6,7 +6,9 @@ Ajouter du bruit sur une image
 
 |Original|10% de bruit|
 |--------|------------|
-|![Original](images/original.png)|![Image avec bruit](images/bruit10.bmp)|
+|![Original](images/butterfly.bmp)|![Image avec bruit](images/bruit10.bmp)|
+
+
 |30% de bruit|50% de bruit|
 |------------|------------|
 |![Image avec bruit](images/bruit30.bmp)|![Image avec bruit](images/bruit50.bmp)|
