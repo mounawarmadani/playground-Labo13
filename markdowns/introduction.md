@@ -39,7 +39,7 @@ void GetImgTab(Image_Nfo, rgba *);
 void display_Img(Image_Nfo);
 ```
 
-:::`Image_Nfo LoadImage(const char[200])`
+::: `Image_Nfo LoadImage(const char[200])`
 La fonction `LoadImage` prend en paramètre une chaîne de caractère représentant le nom de l'image et son emplacement si il est différent de celui d'exécution.
 
 La fonction retour une `struct Image_Nfo`. Celle-ci contient différentes informations sur l'image (y compris l'image). Les plus intéressantes sont `w`, la largeur de l'image et `h`, la hauteur de l'image.
