@@ -53,6 +53,8 @@ La fonction retour une `struct Image_Nfo`. Celle-ci permettra de construire une 
 
 :::void SaveImage(const char[200], Image_Nfo)
 La fonction `SaveImage` prend en paramètre une chaîne de caractère représentant le nom de l'image à sauver et une `Image_Nfo` contenant les informations de l'image qui sera sauvée.
+:::
+
 :::void GetImgTab(Image_Nfo, rgba *)
 La fonction `GetImgTab` prend en paramètre une `Image_Nfo` et l'adresse d'un tableau de `rgba` de la taille de l'image à traiter. Après exécution le tableau de `rgba` contiendra chaque pixel de l'image.
 :::
