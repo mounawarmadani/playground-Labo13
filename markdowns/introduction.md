@@ -34,16 +34,33 @@ La libraire toolbox offre une série de fonction permettant de manipuler les ima
 Image_Nfo LoadImage(const char[200]);
 Image_Nfo Create_Image(int, int);
 void SaveImage(const char[200], Image_Nfo);
-void SetImgTab(Image_Nfo, rgba *);
 void GetImgTab(Image_Nfo, rgba *);
+void SetImgTab(Image_Nfo, rgba *);
 void display_Img(Image_Nfo);
 ```
 
-::: `Image_Nfo LoadImage(const char[200])`
+:::Image_Nfo LoadImage(const char[200])
 La fonction `LoadImage` prend en paramètre une chaîne de caractère représentant le nom de l'image et son emplacement si il est différent de celui d'exécution.
 
 La fonction retour une `struct Image_Nfo`. Celle-ci contient différentes informations sur l'image (y compris l'image). Les plus intéressantes sont `w`, la largeur de l'image et `h`, la hauteur de l'image.
 :::
 
-1. Introduire la notion d'image en comment elles sont représentées sur un ordinateur
-1. Introduire les fonctions disponnibles dans toolbox
+:::Image_Nfo Create_Image(int, int)
+La fonction `Create_Image` prend en paramètre deux entiers représentant la largeur et la hauteur d'une image.
+
+La fonction retour une `struct Image_Nfo`. Celle-ci permettra de construire une image à partir de rien.
+:::
+
+:::void SaveImage(const char[200], Image_Nfo)
+La fonction `SaveImage` prend en paramètre une chaîne de caractère représentant le nom de l'image à sauver et une `Image_Nfo` contenant les informations de l'image qui sera sauvée.
+:::void GetImgTab(Image_Nfo, rgba *)
+La fonction `GetImgTab` prend en paramètre une `Image_Nfo` et l'adresse d'un tableau de `rgba` de la taille de l'image à traiter. Après exécution le tableau de `rgba` contiendra chaque pixel de l'image.
+:::
+
+:::void SetImgTab(Image_Nfo, rgba *)
+La fonction `SetImgTab` prend en paramètre une `Image_Nfo` et l'adresse d'un tableau de `rgba`. Elle va ré-écrire le tableau dans la `Image_Nfo`.
+:::
+
+:::void display_Img(Image_Nfo)
+La fonction `display_Img` prend en paramètre une `Image_Nfo` et l'affiche dans une fenêtre.
+:::
