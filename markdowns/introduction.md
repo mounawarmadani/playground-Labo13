@@ -30,13 +30,14 @@ Comme vous pouvez le voir chaque composant de couleur est codée sur un `unsigne
 ## Toolbox
 
 La libraire toolbox offre une série de fonction permettant de manipuler les images :
-- `Image_Nfo LoadImage(const char[200]);`
-- `Image_Nfo Create_Image(int, int);`
-- `void SaveImage(const char[200], Image_Nfo);`
-- `void SetImgTab(Image_Nfo, rgba *);`
-- `void GetImgTab(Image_Nfo, rgba *);`
-- `void display_Img(Image_Nfo);`
-
+```c
+Image_Nfo LoadImage(const char[200]);
+Image_Nfo Create_Image(int, int);
+void SaveImage(const char[200], Image_Nfo);
+void SetImgTab(Image_Nfo, rgba *);
+void GetImgTab(Image_Nfo, rgba *);
+void display_Img(Image_Nfo);
+```
 
 1. Introduire la notion d'image en comment elles sont représentées sur un ordinateur
 1. Introduire les fonctions disponnibles dans toolbox
