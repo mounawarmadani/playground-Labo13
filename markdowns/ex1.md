@@ -1,6 +1,6 @@
 # Exercice 1
 
-Convertir en niveau de gris
+Il faut convertir une image en niveau de gris. Pour obtenir le gris, les valeurs des 3 composantes de couleur doivent être les mêmes. Il s'agit de la moyenne des 3 valeurs initiales.
 
 ## Exemple
 

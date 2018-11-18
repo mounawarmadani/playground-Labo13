@@ -1,6 +1,6 @@
 # Exercice 3
 
-Retourner une image
+Il faut retourner l'image du haut vers le bas.
 
 ## Exemple
 

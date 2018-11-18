@@ -1,6 +1,6 @@
 # Exercice 4
  
-Réduire une image de moitié
+Il faut réduire la taille de l'image de moitié.
 
 ## Exemple
 
