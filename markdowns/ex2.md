@@ -1,6 +1,6 @@
 # Exercice 2
 
-Il faut ajouter du bruit à une image. Le bruit sur une image est des pixels détériorés dans l'image. Par définition, la couleur du pixel détériorés est aléatoire.
+Il faut ajouter du bruit à une image. Le bruit sur une image est des pixels détériorés dans l'image. Par définition, la couleur du pixel détérioré est aléatoire.
 
 ## Exemple
 
