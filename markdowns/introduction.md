@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
     Image_Nfo image;
     rgba tableau[256][256];
 
-    image = Create_Image(256,256); //ou image = LoadImage("monfichier.bmp");
+    image = LoadImage("monfichier.bmp"); //ou image = Create_Image(256,256);
 
 	GetImgTab(image,tableau);
 	/**************************
