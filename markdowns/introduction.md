@@ -29,7 +29,7 @@ Comme vous pouvez le voir chaque composant de couleur est codée sur un `unsigne
 
 ## Toolbox
 
-La libraire toolbox offre une série de fonction permettant de manipuler les images :
+La libraire toolbox offre une série de fonction permettant de manipuler les images `BMP`:
 ```c
 Image_Nfo LoadImage(const char[200]);
 Image_Nfo Create_Image(int, int);
@@ -66,3 +66,30 @@ La fonction `SetImgTab` prend en paramètre une `Image_Nfo` et l'adresse d'un ta
 :::void display_Img(Image_Nfo)
 La fonction `display_Img` prend en paramètre une `Image_Nfo` et l'affiche dans une fenêtre.
 :::
+
+### Exemple
+
+```c
+#include <string.h>
+#include "toolsbox.h"
+
+int main(int argc, char *argv[])
+{
+    Image_Nfo image;
+    rgba tableau[256][256];
+
+    image = Create_Image(256,256); //ou image = LoadImage("monfichier.bmp");
+
+	GetImgTab(image,tableau);
+	/**************************
+	** Traitement de tableau **
+	**************************/
+	SetImgTab(image,tab);
+	
+	SaveImage("fichier.bmp",image);
+	display_Img(image);
+	waitAndQuit();
+	
+	return 0;
+}
+```
