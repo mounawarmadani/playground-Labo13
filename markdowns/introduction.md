@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
 	/**************************
 	** Traitement de tableau **
 	**************************/
-	SetImgTab(image,tab);
+	SetImgTab(image,&tableau[0][0]);
 	
 	SaveImage("fichier.bmp",image);
 	display_Img(image);
